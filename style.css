@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(image/Fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+}
+
+.margentop{
+    padding-top: 10rem;
+
+}
+
+.main-box{
+    position: relative;
+    top: 100px;
+    width: 20%;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+    background-color: #ffffff3e;
+    text-align: center;
+    /* box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px; */
+}
+.main-box h2{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.side-left{
+   /*  width:10px; */
+    display: flex;
+    flex-direction: column;
+}
+.side-left h3{
+    color: #000000;
+}
+input[type=text] {
+    /* border: solid 2px rgb(0, 0, 0); */
+    padding: 5px;
+    margin-bottom: 10px;
+   /*  box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
+    border-radius:10px;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+input[type=text]:focus {
+    box-shadow: 0 0 15px 4px #f8f0df;
+}
+a.search-letters{
+    position: relative;
+    top: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    /* box-shadow: 0 0 15px 4px rgb(0 0 0 / 6%); */
+    width: fit-content;
+    padding: 8px 23px;
+    border-radius: 10px;
+    margin: 10px 20px 50px 10px;
+    background-color: #ffffff;
+}
+a.search-letters:hover {
+    background-color: #79B4B7;
+}
+.side-right{
+    width: 50%;
+}
+.side-right h3 {
+    color: #79B4B7;
+}
+.error-mensaje{
+    color: red;
+}
+
+.LetraPresente {
+    color: rgb(255, 255, 255);    
+    font-size: 55px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.Presente {
+    display: flex;
+    justify-content: center;
+    background: #9b9b9b69;
+    
+}
+
+
+.LetraFuturo {
+    color: rgba(255, 255, 255, 0.5);    
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+
+}
+
+.Futuro {
+    display: flex;
+    justify-content: center;
+/*     background: #0000008e; */
+}
+
+.LetraPasado {
+    color: rgba(255, 255, 255, 0.8);    
+    font-size: 25px;
+    font-weight:100;
+    align-items: center;
+}
+
+.Pasado {
+    display: flex;
+    justify-content: center;
+/*     background: #0000008e; */
+}
+
+/* @media (min-width: 949px) {
+    .Presente {
+        display: flex;
+        justify-content: center;
+        background: #53070769;
+        
+    }
+} */
+
+@media all and (display-mode: fullscreen) {
+    
+    .Futuro {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 120px;
+
+    /*     background: #0000008e; */
+    }
+
+    .Presente {
+      padding: 0px;
+      position: relative;
+      top: 120px;
+      display: flex;
+        justify-content: center;
+        background: #9b9b9b69;
+    }
+
+    .Pasado {
+        display: flex;
+        justify-content: center;
+    /*     background: #0000008e; */
+        position: relative;
+        top: 120px;
+    }
+
+    .main-box{
+        position: relative;
+        top: 270px;
+        width: 20%;
+        border-radius: 30px;
+        margin: 0 auto;
+        margin-top: 5%;
+        padding: 10px;
+        background-color: #ffffff3e;
+        text-align: center;
+        /* box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px; */
+    }
+  }

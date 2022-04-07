@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karaoke Unplugged</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div class="margentop">
+    <!-- <div>
+        <div class="Pasado"><h1 class="LetraPasado">Pasado</h1></div>
+        <div class="Presente"><h1 class="LetraPresente">Presente</h1></div>
+        <div class="Futuro"><h1 class="LetraFuturo">Futuro</h1></div>
+    </div> -->
+    <div>
+        <div id="presente" class="Pasado"><h1 class="LetraPasado">Pasado</h1></div>
+        <div id="futuro" class="Presente"><h1 class="LetraPresente">Presente</h1></div>
+        <div id="pasado" class="Futuro"><h1 class="LetraFuturo">Futuro</h1></div>
+    </div>
+    <!-- <button id="button">Cambiar Cancion</button> -->
+    <section class="main-box">
+        <h2>Letra</h2>
+        <div class="flex-container">
+            <div class="side-left"> 
+                <h3>Busca la Canción</h3>
+                <form id="formulario">
+                    <input type="text" placeholder="Nombre del Artista" class="artist">
+                    <input type="text" placeholder="Nombre de la Canción" class="song">
+                    <a href="" class="search-letters">Buscar</a>
+                </form>
+
+            </div>
+            <!-- <div class="side-right"> -->
+                
+
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js" defer></script>
+</html>
